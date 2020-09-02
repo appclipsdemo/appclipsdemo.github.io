@@ -1,5 +1,23 @@
 {
-	"appclips": {
-		"apps": ["6C5B687R9E.com.epam.poc.ah.SelfCheckout"]
-	}
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["6C5B687R9E.com.epam.poc.ah"],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "*",
+            "comment": "Matches any URL"
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["6C5B687R9E.com.epam.poc.ah.SelfCheckout"]
+  }
 }
